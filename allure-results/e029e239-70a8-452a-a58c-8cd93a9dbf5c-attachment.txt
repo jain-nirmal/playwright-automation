@@ -1,0 +1,10 @@
+Searching for product: ADIDAS ORIGINAL
+[
+  'ADIDAS ORIGINAL',
+  'ADIDAS ORIGINAL',
+  'ADIDAS ORIGINAL',
+  'ZARA COAT 3',
+  'ADIDAS ORIGINAL',
+  'iphone 13 pro'
+]
+Order Id is:  | 695f76a0c941646b7a87ee2e | 

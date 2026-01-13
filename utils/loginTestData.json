@@ -1,0 +1,138 @@
+[
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Valid login with correct credentials"
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "Test123$",
+    "productName": "ADIDAS ORIGINAL",
+    "scenario": "Valid login with different product"
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "Test123$",
+    "productName": "IPHONE 13 PRO",
+    "scenario": "Valid login with premium product"
+  },
+  {
+    "email": "",
+    "password": "Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with empty email",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with empty password",
+    "expectError": true
+  },
+  {
+    "email": "",
+    "password": "",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with empty credentials",
+    "expectError": true
+  },
+  {
+    "email": "invalid@email.com",
+    "password": "Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with invalid email",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "WrongPassword123",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with incorrect password",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with password case sensitivity - lowercase",
+    "expectError": true
+  },
+  {
+    "email": "NIRMAL_JAIN@ZOHOMAIL.IN",
+    "password": "Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with email uppercase",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in ",
+    "password": "Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with email having trailing space",
+    "expectError": true
+  },
+  {
+    "email": " nirmal_jain@zohomail.in",
+    "password": "Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with email having leading space",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "Test123$ ",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with password having trailing space",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": " Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with password having leading space",
+    "expectError": true
+  },
+  {
+    "email": "test@test.com",
+    "password": "123456",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with non-existent user",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "Test123$Test123$Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with very long password",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "123",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with very short password",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "Test@123!@#",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with special characters in password",
+    "expectError": true
+  },
+  {
+    "email": "nirmal+alias@zohomail.in",
+    "password": "Test123$",
+    "productName": "ZARA COAT 3",
+    "scenario": "Login with email alias",
+    "expectError": true
+  },
+  {
+    "email": "nirmal_jain@zohomail.in",
+    "password": "Test123$",
+    "productName": "",
+    "scenario": "Valid login without selecting product"
+  }
+]

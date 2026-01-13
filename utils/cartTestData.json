@@ -1,0 +1,95 @@
+[
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 1,
+    "scenario": "Add single product to cart",
+    "expectSuccess": true
+  },
+  {
+    "productName": "ADIDAS ORIGINAL",
+    "quantity": 1,
+    "scenario": "Add different product to cart",
+    "expectSuccess": true
+  },
+  {
+    "productName": "IPHONE 13 PRO",
+    "quantity": 1,
+    "scenario": "Add premium product to cart",
+    "expectSuccess": true
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 5,
+    "scenario": "Add product with higher quantity",
+    "expectSuccess": true
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 1,
+    "shouldAddTwice": true,
+    "scenario": "Add same product twice to cart",
+    "expectSuccess": true
+  },
+  {
+    "productName": "ADIDAS ORIGINAL",
+    "quantity": 2,
+    "scenario": "Add multiple quantities of product",
+    "expectSuccess": true
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 10,
+    "scenario": "Add very high quantity",
+    "expectSuccess": true
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 0,
+    "scenario": "Add product with zero quantity",
+    "expectSuccess": false
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": -1,
+    "scenario": "Add product with negative quantity",
+    "expectSuccess": false
+  },
+  {
+    "productName": "NonExistentProduct",
+    "quantity": 1,
+    "scenario": "Add non-existent product",
+    "expectSuccess": false
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 999,
+    "scenario": "Add unrealistic quantity",
+    "expectSuccess": false
+  },
+  {
+    "shouldRemoveAfterAdd": true,
+    "productName": "ZARA COAT 3",
+    "quantity": 1,
+    "scenario": "Add and remove product immediately"
+  },
+  {
+    "multipleProducts": [
+      "ZARA COAT 3",
+      "ADIDAS ORIGINAL",
+      "IPHONE 13 PRO"
+    ],
+    "scenario": "Add multiple different products"
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 1,
+    "scenario": "Add product and verify cart count updates"
+  },
+  {
+    "productName": "ZARA COAT 3",
+    "quantity": 3,
+    "shouldUpdateQuantity": true,
+    "newQuantity": 5,
+    "scenario": "Add product and update quantity"
+  }
+]

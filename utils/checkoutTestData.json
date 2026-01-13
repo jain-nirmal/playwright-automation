@@ -1,0 +1,78 @@
+[
+  {
+    "country": "India",
+    "scenario": "Checkout with India selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "United States",
+    "scenario": "Checkout with USA selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "United Kingdom",
+    "scenario": "Checkout with UK selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "Canada",
+    "scenario": "Checkout with Canada selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "Australia",
+    "scenario": "Checkout with Australia selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "Germany",
+    "scenario": "Checkout with Germany selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "France",
+    "scenario": "Checkout with France selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "Japan",
+    "scenario": "Checkout with Japan selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "China",
+    "scenario": "Checkout with China selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "Brazil",
+    "scenario": "Checkout with Brazil selection",
+    "expectSuccess": true
+  },
+  {
+    "country": "",
+    "scenario": "Checkout without country selection",
+    "expectError": true
+  },
+  {
+    "country": "InvalidCountry",
+    "scenario": "Checkout with invalid country",
+    "expectError": true
+  },
+  {
+    "country": "In",
+    "scenario": "Checkout with partial country name",
+    "expectError": true
+  },
+  {
+    "country": "INDIA",
+    "scenario": "Checkout with uppercase country",
+    "expectError": true
+  },
+  {
+    "cartEmpty": true,
+    "country": "India",
+    "scenario": "Checkout with empty cart",
+    "expectError": true
+  }
+]
